@@ -1,0 +1,45 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of build tools
+/build/
+/bin/
+
+# Vendor directory
+/vendor/
+
+# Dependency directories (remove the comment below if you use Go modules)
+# /pkg/mod/
+
+# Go workspace file
+*.code-workspace
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+
+# Logs
+*.log
+
+# Test cache
+*.testcache
+
+# Coverage files
+*.coverprofile
+coverage.out
+
+# Environment files
+.env
+.env.*
+
+# Misc
+*.local
